@@ -1,7 +1,7 @@
 pkgname=zxnftp
 pkgver=1.01.00
 pkgrel=1
-arch=('x86_64' 'aarch64')
+arch=('x86_64' 'aarch64' 'riscv64')
 url=https://github.com/varmfskii/zxnimage
 pkgdesc='zxntools are a set of image tools to convert to and from ZX Spectrum Next image formats'
 license=('GPL')
