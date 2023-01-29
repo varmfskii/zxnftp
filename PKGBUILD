@@ -14,12 +14,14 @@ pkgver() {
 
 build() {
     cd "$srcdir/$pkgname"
-    make client
+    make -C client zxnftp
 }
 
 package() {
     cd "$srcdir/$pkgname"
-    make PREFIX="$pkgdir/usr/local" client_install
+    mkdir -p "$pkgdir/usr/local/bin" "$pkgdir/usr/local/man/man1"
+    cp client/zxnftp "$pkgdir/usr/local/bin"
+    cp man/*.1 "$pkgdir/usr/local/man/man1"
 }
 
-
+md5sums=('SKIP')
