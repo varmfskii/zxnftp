@@ -1,0 +1,15 @@
+Source: zxnftp
+Section: unknown
+Priority: optional
+Maintainer: Theodore (Alex) Evans <varmfskii@gmail.com>
+Build-Depends: debhelper-compat (= 13), libncurses-dev
+Standards-Version: 4.5.1
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/zxnftp
+#Vcs-Git: https://salsa.debian.org/debian/zxnftp.git
+Rules-Requires-Root: no
+
+Package: zxnftp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ncurses
+Description: Client for FTP like protocol with ZX Spectrum Next

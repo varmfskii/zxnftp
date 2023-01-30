@@ -1,0 +1,5 @@
+zxnftp (1.01.00-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Theodore (Alex) Evans <varmfskii@gmail.com>  Sun, 29 Jan 2023 19:06:44 -0500
